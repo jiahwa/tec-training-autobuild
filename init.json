@@ -1,0 +1,109 @@
+{
+    "list":[
+        {
+            "en": "day01",
+            "zh-cn": "第一天 前端基础",
+            "ppt": "第1天 前端基础改.pptx",
+            "examples": [
+                {
+                    "id": "day01-01-00",
+                    "title": "前端知识图谱",
+                    "filetype": "md",
+                    "content": "![前端知识图谱](./images/day01-01.jpg)"
+                },
+                {
+                    "id": "day01-01-01",
+                    "title": "HTMLCSSJS",
+                    "filetype": "html"
+                },{
+                    "id": "day01-01-02",
+                    "title": "HelloWorld",
+                    "filetype": "html"
+                },{
+                    "id": "day01-01-03",
+                    "title": "html标签",
+                    "filetype": "html"
+                },{
+                    "id": "day01-01-04",
+                    "title": "渲染h5",
+                    "filetype": "html"
+                },{
+                    "id": "day01-01-05",
+                    "title": "webStorage",
+                    "filetype": "html",
+                    "files": ["index.html"]
+                },
+                {
+                    "id": "day01-02-01",
+                    "title": "左右布局",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-02",
+                    "title": "正常布局流",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-03",
+                    "title": "左中右布局",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-04",
+                    "title": "任意间距布局",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-05",
+                    "title": "左中右布局变形",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-06",
+                    "title": "三个按钮",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-07",
+                    "title": "selector",
+                    "filetype": "html"
+                },{
+                    "id": "day01-02-06",
+                    "title": "三个按钮",
+                    "filetype": "html"
+                }
+            ],
+            "code": [{
+                "id": "day01-02",
+                "files": ["bootstrap.css", "bootstrap.min.css"]
+
+            }],
+            "exercises": [
+                {
+                    "id": "day01-01",
+                    "title": "html练习唐诗三百首",
+                    "filetype": "md",
+                    "content": "![html练习唐诗三百首](./images/day01-01.jpg)"
+                },{
+                    "id": "day01.02",
+                    "title": "html练习CityGallery",
+                    "filetype": "md"
+                },{
+                    "id": "day01-03",
+                    "title": "html练习学生信息注册",
+                    "filetype": "md"
+                },{
+                    "id": "day01-04",
+                    "title": "html练习CityGallery",
+                    "filetype": "md"
+                },{
+                    "id": "day01-04",
+                    "title": "html练习CityGallery",
+                    "filetype": "md"
+                },{
+                    "id": "day01-05",
+                    "title": "html练习CityGallery",
+                    "filetype": "md"
+                },{
+                    "id": "day01-06",
+                    "title": "html练习CityGallery",
+                    "filetype": "md"
+                }
+            ]
+        }
+    ]
+}
