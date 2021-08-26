@@ -1,0 +1,2 @@
+# tec-training-autobuild
+autobuild
