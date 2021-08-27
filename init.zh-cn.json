@@ -1,109 +1,60 @@
 {
-    "list":[
-        {
-            "id": "day01",
-            "title": "第一天 前端基础",
-            "ppt": "第1天 前端基础改.pptx",
-            "examples": [
+    "attrs": {
+        "title": "培训资料"
+    },
+    "children":[{
+            "attrs": { "title": "day01-第一天 前端基础" },
+            "children":[
                 {
-                    "id": "day01-01-00",
-                    "title": "前端知识图谱",
-                    "filetype": "md",
-                    "content": "![前端知识图谱](./images/day01-01.jpg)"
-                },
+                    "attrs": {"title": "examples"},
+                    "children": [
+                        {"attrs": {"title":"day01-01-00-前端知识图谱.md","content": "![前端知识图谱](./images/day01-01.jpg)"}},
+                        {"attrs": {"title":"day01-01-01-htmlcssjs.md","content":""}},
+                        {"attrs": {"title":"day01-01-02-helloworld.html","content":""}},
+                        {"attrs": {"title":"day01-01-03-html标签.html","content":""}},
+                        {"attrs": {"title":"day01-01-04-渲染h5.html","content":""}},
+                        {"attrs": {"title":"day01-01-05-webstorage.html","content":""},
+                            "children": [{"attrs": {"title":"index.html","content":""}}]
+                        },
+                        {"attrs": {"title":"day01-02-01-左右布局.html","content":""}},
+                        {"attrs": {"title":"day01-02-02-正常布局流.html","content":""}},
+                        {"attrs": {"title":"day01-02-03-左中右布局.html","content":""}},
+                        {"attrs": {"title":"day01-02-04-任意间距布局.html","content":""}},
+                        {"attrs": {"title":"day01-02-05-左中右布局变形.html","content":""}},
+                        {"attrs": {"title":"day01-02-06-三个按钮.html","content":""}},
+                        {"attrs": {"title":"day01-02-07-selector.html","content":""}},
+                        {"attrs": {"title":"day01-02-08-background.html","content":""}},
+                        {"attrs": {"title":"day01-02-09-border-radius.html","content":""}},
+                        {"attrs": {"title":"day01-02-10-text-effect.html","content":""}},
+                        {"attrs": {"title":"day01-02-11-position居中.html","content":""}},
+                        {"attrs": {"title":"day01-02-12-fixed定位.html","content":""}}
+                    ]},
                 {
-                    "id": "day01-01-01",
-                    "title": "HTMLCSSJS",
-                    "filetype": "html"
-                },{
-                    "id": "day01-01-02",
-                    "title": "HelloWorld",
-                    "filetype": "html"
-                },{
-                    "id": "day01-01-03",
-                    "title": "html标签",
-                    "filetype": "html"
-                },{
-                    "id": "day01-01-04",
-                    "title": "渲染h5",
-                    "filetype": "html"
-                },{
-                    "id": "day01-01-05",
-                    "title": "webStorage",
-                    "filetype": "html",
-                    "files": ["index.html"]
-                },
+                    "attrs": {"title": "code"},
+                    "children": [
+                        {"attrs": {"title": "day01-02","content": ""},
+                        "children": [
+                            {"attrs": {"title":"bootstrap.css","content":""}},
+                            {"attrs": {"title":"bootstrap.min.css","content":""}}
+                        ]
+                    }
+                    ]},
                 {
-                    "id": "day01-02-01",
-                    "title": "左右布局",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-02",
-                    "title": "正常布局流",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-03",
-                    "title": "左中右布局",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-04",
-                    "title": "任意间距布局",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-05",
-                    "title": "左中右布局变形",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-06",
-                    "title": "三个按钮",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-07",
-                    "title": "selector",
-                    "filetype": "html"
-                },{
-                    "id": "day01-02-06",
-                    "title": "三个按钮",
-                    "filetype": "html"
-                }
-            ],
-            "code": [{
-                "id": "day01-02",
-                "files": ["bootstrap.css", "bootstrap.min.css"]
-
-            }],
-            "exercises": [
-                {
-                    "id": "day01-01",
-                    "title": "html练习唐诗三百首",
-                    "filetype": "md",
-                    "content": "![html练习唐诗三百首](./images/day01-01.jpg)"
-                },{
-                    "id": "day01.02",
-                    "title": "html练习CityGallery",
-                    "filetype": "md"
-                },{
-                    "id": "day01-03",
-                    "title": "html练习学生信息注册",
-                    "filetype": "md"
-                },{
-                    "id": "day01-04",
-                    "title": "html练习CityGallery",
-                    "filetype": "md"
-                },{
-                    "id": "day01-04",
-                    "title": "html练习CityGallery",
-                    "filetype": "md"
-                },{
-                    "id": "day01-05",
-                    "title": "html练习CityGallery",
-                    "filetype": "md"
-                },{
-                    "id": "day01-06",
-                    "title": "html练习CityGallery",
-                    "filetype": "md"
-                }
+                    "attrs": {"title": "exercises"},
+                    "children": [
+                        {"attrs": {"title":"day01-01-01-html练习唐诗三百首.md","content": "![html练习唐诗三百首](./images/day01-01.jpg)"}},
+                        {"attrs": {"title":"day01-01-02-html练习CityGallery.md","content":""}},
+                        {"attrs": {"title":"day01-01-03-html练习学生信息注册.md","content":""}},
+                        {"attrs": {"title":"day01-01-04-h5webstorage.html","content":""}},
+                        {"attrs": {"title":"day01-02-01-css练习百度网页.md","content":""}},
+                        {"attrs": {"title":"day01-03-01-js练习基础练习.md","content":""}},
+                        {"attrs": {"title":"day01-03-02-js练习数组算法.md","content":""}},
+                        {"attrs": {"title":"day01-03-03-js练习字符串.md","content":""}},
+                        {"attrs": {"title":"day01-03-04-js练习水仙花数.md","content":""}},
+                        {"attrs": {"title":"day01-03-05-js练习取硬币.html","content":""}},
+                        {"attrs": {"title":"day01-03-06-js练习抓球.html","content":""}},
+                        {"attrs": {"title":"day01-03-07-js练习es6.html","content":""}}
+                    ]}
             ]
-        }
-    ]
+        }]
 }

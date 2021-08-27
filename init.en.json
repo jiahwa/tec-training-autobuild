@@ -1,9 +1,11 @@
 {
     "list":[
         {
-            "en": "day01",
-            "zh-cn": "第一天 前端基础",
-            "ppt": "第1天 前端基础改.pptx",
+            "attrs": {
+                "id": "day01",
+                "title": "第一天 前端基础",
+                "files": ["第1天 前端基础改.pptx"]
+            },
             "examples": [
                 {
                     "id": "day01-01-00",
