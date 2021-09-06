@@ -17,7 +17,7 @@ for root, dir, files in walk(rootDir):
     match = path.basename(root)
     if match in IGNORE_DIRS:
         dir[:] = [] # ignore sub
-        continue;
+        continue
 
     times = len(PurePath(root[len(rootDir)-1:]).parts)
     result.append('|\t' * (times-1) + '├── %s\n' %match)
